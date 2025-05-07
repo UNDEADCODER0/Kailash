@@ -11,18 +11,37 @@
 </head>
 <body>
 
-<header class="navbar">
-  <div class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="#">Contact</a>
-  </div>
-  <img src="./image/logo.jfif" alt="Logo" class="logo">
-</header>
+  <header class="navbar">
+    <div class="logo">
+    <img src="./image/logo.jfif" alt="Logo" class="logo-img">
+    </div>
+    <div class="nav-links">
+        <ul class="nav" id="navlinks">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">News</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+
+      <div class="hamburger" id="hamburger" > 
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
 
 <section class="MY-Project">
   <h1>My Projects</h1>
+  <h2 id="c-title">Table content</h2>
   <div class="project-container">
     
     <div class="project-card">
@@ -55,7 +74,59 @@
 
   </div>
 </section>
-
+<section class="description">
+  <h1>Project Description</h1>
+  <p>My projects showcase a variety of skills and technologies, including responsive design, modern JavaScript frameworks, and user-friendly interfaces. Each project is designed with attention to detail and a focus on user experience.</p>
+  <p>Feel free to explore the projects above and reach out if you have any questions or would like to collaborate!</p>
+  <br><br>
+  <div class="description-card">
+    <img src="images/ecommerce-app.png" alt="E-commerce App Screenshot" />
+    <h3>E-commerce App</h3>
+    <p>
+      A modern and scalable online store built for optimal performance and user engagement. Designed with a mobile-first approach.
+    </p>
+    <h4>Features :</h4>
+    <ul>
+      <li>🛒 Advanced product filtering and search functionality</li>
+      <li>🔐 Secure login/register system with JWT authentication</li>
+      <li>💳 Payment integration (Stripe/PayPal)</li>
+      <li>📦 Admin dashboard for order, product & stock management</li>
+      <li>📱 Fully responsive design and fast page loading</li>
+    </ul>
+    <p><strong>Advantages:</strong> Enhanced UX, real-time updates, and scalability for growing product catalogs.</p>
+  </div>
+  <div class="description-card">
+    <img src="images/portfolio-site.png" alt="Portfolio Website Screenshot" />
+    <h3>Portfolio Website</h3>
+    <p>
+      A clean and elegant personal website that highlights skills, projects, and professional experience, with a focus on user interactivity.
+    </p>
+    <ul>
+      <li>💼 Featured project carousel with hover animations</li>
+      <li>📄 Resume download and skills section with progress bars</li>
+      <li>📧 Contact form with email notifications</li>
+      <li>🌐 SEO-friendly structure with semantic HTML</li>
+      <li>🖥️ Fully responsive across all screen sizes</li>
+    </ul>
+    <p><strong>Advantages:</strong> Professional online presence with interactive design and fast loading times.</p>
+  </div>
+  <div class="description-card">
+    <img src="images/task-manager.png" alt="Task Management Tool Screenshot" />
+    <h3>Task Management Tool</h3>
+    <p>
+      A collaborative task-tracking app designed for individuals and teams. Helps users stay organized, productive, and on schedule.
+    </p>
+    <ul>
+      <li>📆 Task creation with deadlines, tags, and reminders</li>
+      <li>🔄 Real-time sync using Firebase</li>
+      <li>📊 Visual analytics for task progress tracking</li>
+      <li>👥 Multi-user collaboration with permissions</li>
+      <li>🧩 Drag-and-drop Kanban board interface</li>
+    </ul>
+    <p><strong>Advantages:</strong> Boosts team coordination, improves accountability, and simplifies project oversight.</p>
+  </div>
+      
+</section>
 <footer class="footer">
   <p>&copy; 2025 Mr.Z | All rights reserved.</p>
   <div class="socials">
